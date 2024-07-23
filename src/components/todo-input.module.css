@@ -1,0 +1,33 @@
+.container {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	padding: 1rem;
+	background-color: var(--very-light-gray);
+	border-radius: 0.3rem;
+}
+
+.text-input {
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 0;
+	background-color: inherit;
+	font-size: 1.1rem;
+	color: var(--very-dark-grayish-blue);
+	margin-top: 4px;
+
+	&::placeholder {
+		color: var(--dark-grayish-blue);
+	}
+}
+
+[data-theme="dark"] {
+	.container {
+		background-color: var(--very-dark-desaturated-blue);
+	}
+
+	.text-input {
+		color: var(--light-grayish-blue);
+	}
+}

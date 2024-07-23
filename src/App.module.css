@@ -1,0 +1,35 @@
+.main {
+	background-color: #909090b7;
+	background-image: url("/images/bg-desktop-light.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	min-height: 275px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+
+	[data-theme="dark"] & {
+		background-color: var(--very-dark-blue);
+		background-image: url("/images/bg-desktop-dark.jpg");
+	}
+
+	@media (max-width: 375px) {
+		background-image: url("/images/bg-mobile-light.jpg");
+		min-height: 200px;
+
+		[data-theme="dark"] & {
+			background-image: url("/images/bg-mobile-dark.jpg");
+		}
+	}
+}
+
+.inner {
+	width: min(520px, 90%);
+	position: absolute;
+	top: 10%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}

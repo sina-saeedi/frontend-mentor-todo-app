@@ -1,0 +1,10 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.title {
+	color: white;
+	letter-spacing: 10px;
+}
