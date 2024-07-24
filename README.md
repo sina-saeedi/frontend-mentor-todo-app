@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Live Site URL: [Add live site URL here](https://sina-saeedi.github.io/frontend-mentor-todo-app/)
 
 ## My process
 
@@ -44,9 +44,9 @@ Users should be able to:
 -   React.js
 -   Vite.js
 -   Typescript
--   Css modules
+-   PostCSS
+-   CSS modules
 -   CSS custom properties
--   PostCss
 
 ## Author
 
