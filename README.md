@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
--   Live Site URL: [Add live site URL here](https://sina-saeedi.github.io/frontend-mentor-todo-app/)
+-   Live Site URL: https://sina-saeedi.github.io/frontend-mentor-todo-app/
 
 ## My process
 
